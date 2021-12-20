@@ -123,13 +123,13 @@ header {
     cursor: pointer;
 }
 
-.search button {
+.search_btn {
     background-image: url(img/search.png);
-    width: 25px;
+    min-width: 25px;
     height: 25px;
     border: unset;
     background-color: #1d2126;
-    min-width: 25px;
+
 }
 
 
