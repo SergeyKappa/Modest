@@ -17,27 +17,27 @@
     <header class="header">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-2 col-md-3">
+          <div class="col-xs-12 col-sm-2 col-md-2">
             <div class="logo"><img src="img/modest.png" alt="" /></div>
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-7">
-            <div class="nav">
-              <ul>
-                <li class="active"><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">WORK</a></li>
-                <li><a href="">TEAM</a></li>
-                <li><a href="">SERVICE</a></li>
-                <li><a href="">FEATURES</a></li>
-                <li><a href="">CONTACT</a></li>
-              </ul>
-            </div>
+          <div class="col-xs-12 col-sm-7 col-md-7">
+            <ul class="nav">
+              <li class="active"><a href="">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">WORK</a></li>
+              <li><a href="">TEAM</a></li>
+              <li><a href="">SERVICE</a></li>
+              <li><a href="">FEATURES</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
           </div>
-          <div class="hidden-xs col-sm-2 search">
-            <form>
-              <input type="text" placeholder="SEARCH" />
+          <div class="hidden-xs col-sm-3 col-md-2">
+            <form action>
+              <div class="search">
+                <input type="text" placeholder="SEARCH" />
+                <button class="search_btn"></button>
+              </div>
             </form>
-            <button class="search_btn"></button>
           </div>
         </div>
       </div>
@@ -45,36 +45,40 @@
 
     <!-- main -->
     <main>
-      <div class="firstBlog">
+      <section class="slider">
         <div class="container">
           <div class="row">
-            <div class="firstBlogText">
-              <h2>WELCOME TO OUR MARKETPLACE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                nisi metus, tristique ndolor <br />
-                non, ornare sagittis dolor. Nulla vestibulu lacus ...
-              </p>
-              <div class="firstBlogBtn">
-                <div class="view-more-btn">
-                  <a href="">VIEW MORE </a>
-                </div>
-                <div class="view-tour-btn">
-                  <a href="">VIDEO TOUR</a>
-                </div>
+            <div class="col-xs-12 col-md-7">
+              <div class="firstBlogText">
+                <h2 class="upperText">WELCOME TO OUR MARKETPLACE</h2>
+                
+                <div class="paragraf"><p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla
+                  vestibulu lacus ...
+                </p>
+              </div>
+                  <div class="sliderBtn">
+                    <button class=" view-more-btn">VIEW MORE</button>
+                    <button class=" view-tour-btn">VIDEO TOUR</button>
+                  </div>
+              </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="secondBlog">
+      </section>
+      <section class="weAreModest">
         <div class="container">
-          <div class="secondBlogText">
-            <h2><span class="line">&nbsp;</span>&nbsp;WE ARE MODEST.</h2>
-          </div>
-          <div class="secondRow">
-            <div class="secondText">
-              <div class="secondPar">
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <div class="blogWeAreModest upperText">
+                <div class="line"></div>
+                <h2>WE ARE MODEST.</h2>
+              </div>
+            </div>
+              <div class="col-xs-12 col-sm-7">
+              <div class="paragraf">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla
@@ -82,6 +86,7 @@
                   congue, vel sodales arcu vestibulum. Nunc lobortis dui magna,
                   quis lacusullamcorper at.
                 </p>
+                <br>
                 <p>
                   Phasellus sollicitudin ante eros ornare, sit amet luctus lorem
                   semper. Suspendisse posuere, quamdictum consectetur, augue
@@ -89,47 +94,333 @@
                   bibendum ante, ut bibendum odio convallis eget. vel sodales
                   arcu vestibulum
                 </p>
-                <div class="social">
-                  <button class="facebookBtn"></button>
-                  <button class="twiterBtn"></button>
-                  <button class="googleBtn"></button>
-                  <button class="baskBtn"></button>
-                  <button class="beBtn"></button>
-                </div>
               </div>
+              <div class="social">
+                <button class="social_btn facebookBtn"></button>
+                <button class="social_btn twiterBtn"></button>
+                <button class="social_btn googleBtn"></button>
+                <button class="social_btn baskBtn"></button>
+                <button class="social_btn beBtn"></button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
               <div class="numbers">
-                <div class="numberBlog">
-                  <p>1</p>
-                  <p>2</p>
-                  <p>3</p>
+                <div class="descriptionNumbers">
+                    <div class="number">
+                        <p>01</p>
+                    </div>
+                    <div class="text">
+                        <p class="numbersTitle">DEDICATION TO THE CUSTOMERS</p><br>
+                        <p class="numbersInfo">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus. Nam porttitor blandit</p>
+                    </div>
                 </div>
-                <div class="numbersText">
-                  <div class="numbersTextfirst">
-                    Dedication to the customers
-                  </div>
-                  <p>
-                    Integer vel lacus non dui ullamcorper venenatis. Aliquam
-                    vitae tristique nisi, vitae ullamcorper risus. Nam porttitor
-                    blandit
-                  </p>
-                  <div class="numbersTextfirst">
-                    Working closely with our clients
-                  </div>
-                  <p>
-                    Sed blandit nisi urna, sed pellentesque enim consectetur
-                    vitae. Suspendisse ut vehicula nibh.
-                  </p>
-                  <div class="numbersTextfirst">Increase happiness</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla eleifend laoreet euismod.
-                  </p>
+                <div class="descriptionNumbers">
+                    <div class="number">
+                        <p>02</p>
+                    </div>
+                    <div class="text">
+                        <p class="numbersTitle">WORKING CLOSELY WITH OUR CLIENTS</p><br>
+                        <p class="numbersInfo">Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh. </p>
+                    </div>
                 </div>
-              </div>
+                <div class="descriptionNumbers">
+                    <div class="number">
+                        <p>03</p>
+                    </div>
+                    <div class="text">
+                        <p class="numbersTitle">INCREASE HAPPINESS</p><br>
+                        <p class="numbersInfo">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Nulla eleifend laoreet euismod.</p>
+                    </div>
+                </div>
+            </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="meetTheTeam">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="blogMeetTheTeam upperText">
+                <div class="line"></div>
+                <h2>MEET THE TEAM.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="team">
+                <div class="photo">
+                  <img src="img/gloria.png" alt="">
+                  <div class="socialbtn">
+                    <button class="socBtn twiterBtn"></button>
+                    <button class="socBtn facebookBtn"></button>
+                    <button class="socBtn instaBtn"></button>
+                  </div>
+                </div>
+                <div class="nameMember">
+                  <p class="fullName">GLORIA BRUMLEY</p>
+                  <p class="position">CEO and Founder</p>
+              </div>
+              </div>
+            </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="team">
+                <div class="photo">
+                  <img src="img/paul.png" alt="">
+                  <div class="socialbtn">
+                    <button class="socBtn twiterBtn"></button>
+                    <button class="socBtn facebookBtn"></button>
+                    <button class="socBtn instaBtn"></button>
+                  </div>
+                </div>
+                <div class="nameMember">
+                  <p class="fullName">PAUL TORES</p>
+                  <p class="position">HEAD of Development</p>
+              </div>
+              </div>
+            </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="team">
+                <div class="photo">
+                  <img src="img/judith.png" alt="">
+                  <div class="socialbtn">
+                    <button class="socBtn twiterBtn"></button>
+                    <button class="socBtn facebookBtn"></button>
+                    <button class="socBtn instaBtn"></button>
+                  </div>
+                </div>
+                <div class="nameMember">
+                  <p class="fullName">JUDITH GILLETTE</p>
+                  <p class="position">Graphic Designer</p>
+              </div>
+              </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="team">
+                <div class="photo">
+                  <img src="img/reed.png" alt="">
+                  <div class="socialbtn">
+                    <button class="socBtn twiterBtn"></button>
+                    <button class="socBtn facebookBtn"></button>
+                    <button class="socBtn instaBtn"></button>
+                  </div>
+                </div>
+                <div class="nameMember">
+                  <p class="fullName">DELORES REED</p>
+                  <p class="position">Client Servise Director</p>
+              </div>
+              </div>
+            </div>
+            </div>
+            </div>
+      </section>
+      <section class="lovelyWork">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="blogLovelyWork upperText">
+                <div class="line"></div>
+                <h2>LOVELY WORK.</h2>
+              </div>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (12).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (11).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (10).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (9).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (8).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="lovelyPhoto">
+                <img src="img/img (7).png" >
+                <div class="plus">
+                  <img src="img/plus.png">
+                </div>
+                  <div class="underPhotoText">PARTNERSHIP GUIDLINES</div>
+              </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+              <div class="lovelyWorkBtn">
+                <button class="lovelyBtn">SHOW ME MORE</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="whatWeDo">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="blogwhatWeDo upperText">
+                  <div class="line"></div>
+                  <h2>WHAT WE DO.</h2>
+                </div>
+              </div>
+            </div> 
+             <div class="row">
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (12).png"></div>
+                    <div class="whatWeDoSetup">EASY THEME SETUP</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (14).png"></div>
+                    <div class="whatWeDoSetup">PIXEL PERFECT DESIGN</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (11).png"></div>
+                    <div class="whatWeDoSetup">RESPONSIVE DISPLAY</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (13).png"></div>
+                    <div class="whatWeDoSetup">24/7 SUPPORT</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (12).png"></div>
+                    <div class="whatWeDoSetup">EASY THEME SETUP</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (14).png"></div>
+                    <div class="whatWeDoSetup">PIXEL PERFECT DESIGN</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (11).png"></div>
+                    <div class="whatWeDoSetup">RESPONSIVE DISPLAY</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-3">
+                <div class="whatWeDoDescription">
+                  <div class="whatWeDoPhoto">
+                    <img src="img/icon (13).png"></div>
+                    <div class="whatWeDoSetup">24/7 SUPPORT</div>
+                    <div class="whatWeDoInfo">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                </div>
+               </div>
+             </div>
+        </section>
+        <section class="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="blogFeatures upperText">
+                  <div class="line"></div>
+                  <h2>FEATURES.</h2>
+                </div>
+              </div>
+            </div> 
+             <div class="row">
+               <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="featuresDescription">
+                  <div class="featuresPhoto">
+                    <img src="img/img (15).png"></div>
+                    <div class="featuresSetup">PRODUCT DESIGN: EAMES CHAIRS</div>
+                    <div class="featuresInfo">Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="featuresDescription">
+                  <div class="featuresPhoto">
+                    <img src="img/img (14).png"></div>
+                    <div class="featuresSetup">ELEGANT AND COLORFUL LOGOS</div>
+                    <div class="featuresInfo">I’ve always found logo design to be one of the most challenging things to get right. There’s so much that a logo can say about a brand without actually saying it.</div>
+                </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="featuresDescription">
+                  <div class="featuresPhoto">
+                    <img src="img/img (13).png"></div>
+                    <div class="featuresSetup">A SHOWCASE OF CREATIVE</div>
+                    <div class="featuresInfo">It’s always interesting to see another designer’s take on a famous website, app or even physical product. Different designers add their own personality and style.</div>
+                </div>
+               </div>
+               </div>
+               </div>
+              </section>
+
+        <section class="stayInTouch">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="blogStayInTouch upperText">
+                  <div class="line"></div>
+                  <h2>STAY IN TOUCH.</h2>
+                </div>
+              </div>
+            </div> 
+
+
+
+</div>
+        </section>
     </main>
 
     <!-- footer -->
