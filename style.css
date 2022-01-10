@@ -406,8 +406,9 @@ input {
 .underPhotoText {
     position: absolute;
     top: 75%;
-    height: 65px;
-    line-height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    line-height: 70px;
     font-size: 18px;
     background-color: #292f36;
     display: none;
@@ -492,7 +493,7 @@ input {
     display: flex;
     display: flex;
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .featuresDescription {
@@ -501,9 +502,9 @@ input {
     padding-bottom: 15px;
 }
 
-/* .featuresPhoto img {
+.featuresPhoto img {
     width: 100%;
-} */
+}
 
 .featuresSetup {
     padding-top: 35px;
